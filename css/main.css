@@ -1,0 +1,337 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header--stile {
+  background-color: #3259a5;
+  color: white;
+  font-family: "Aleo", serif;
+}
+
+.header--stile .header--container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.header--stile a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header--botton__toggle {
+  color: white;
+}
+
+button {
+  color: white;
+}
+
+.togle--mobile {
+  max-width: 2em;
+  max-height: auto;
+  color: white;
+}
+
+.header--ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.footer--stile {
+  background-color: #232323;
+  color: white;
+  font-family: "Aleo", serif;
+}
+
+.footer--stile .text--copyright {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.footer--stile .footer--text__h1 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer--stile ul li a {
+  text-transform: uppercase;
+}
+
+.footer--stile a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.footer--stile h2 {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.footer--stile h3 {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.footer--stile .btn-color {
+  background: #3259a5;
+  color: white;
+}
+
+.footer--stile .btn-color:hover {
+  background: white;
+  color: #232323;
+}
+
+.footer--form__position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px;
+}
+
+.footer--nav__redes {
+  padding: 30px;
+}
+
+.footer--contenedor__contacto {
+  padding: 20px;
+}
+
+.icon--diseño {
+  width: 4em;
+  height: 3em;
+  color: white;
+}
+
+.section--uno__fondo {
+  background: url("../image/mesita.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section--uno__stilo {
+  height: 340px;
+  color: #1f4da8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "Aleo", serif;
+  font-style: bold;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Aleo", serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.section--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-color {
+  background: #3259a5;
+  color: white;
+}
+
+.btn-color:hover {
+  background: #232323;
+  color: white;
+}
+
+.btn-color_negro {
+  background: #232323;
+  color: white;
+}
+
+.btn-color_negro:hover {
+  background: white;
+  color: #232323;
+}
+
+.section--dos__fondo {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: auto;
+  background: #3259a5;
+  color: white;
+  padding: 40px;
+}
+
+.section--dos__fondo h1 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section--dos__fondo h2 {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.Seccion--Encuesta__stilo {
+  background: #ced3da;
+  font-family: "Aleo", serif;
+  text-transform: initial;
+  font-size: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #1f4da8;
+}
+
+.seccion--123 {
+  color: #1f4da8;
+}
+
+.seccion--123 h1 {
+  font-size: 35px;
+}
+
+.section--img__flechaAbajo {
+  width: 30px;
+  height: 30px;
+}
+
+.carusele--contenedor img {
+  width: 100%;
+  height: 50em;
+  max-height: 350px;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: grayscale(60%);
+          filter: grayscale(60%);
+}
+
+.main-contenedor {
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+.cards-contenedor {
+  margin: auto;
+}
+
+.row-margenes {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.h1-card {
+  font-family: "Aleo", serif;
+  font-size: 25px;
+  color: #1f4da8;
+  text-transform: capitalize;
+}
+
+.h2-card {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #232323;
+}
+
+.p-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #232323;
+}
+
+.h1--servicios {
+  font-family: "Aleo", serif;
+  font-size: 25px;
+  color: #1f4da8;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+.h2--servicios {
+  font-family: "Open Sans", sans-serif;
+  color: #232323;
+  margin-top: 12px;
+  margin-bottom: 1em;
+}
+
+.seccion--main__regala {
+  width: auto;
+  height: auto;
+}
+
+.seccion--main__regala h1 {
+  font-family: "Aleo", serif;
+  color: #1f4da8;
+  text-transform: uppercase;
+}
+
+.seccion--main__regala p {
+  font-family: "Open Sans", sans-serif;
+  color: #232323;
+}
+
+.form--diseño {
+  font-family: "Aleo", serif;
+  text-transform: uppercase;
+  color: #1f4da8;
+}
+
+.btn-form {
+  background-color: #1f4da8;
+  color: white;
+}
+
+.btn-form:hover {
+  background-color: #232323;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

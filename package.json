@@ -1,0 +1,18 @@
+{
+  "name": "instinto Deco",
+  "version": "1.0.0",
+  "description": "Pagina de decoracion, y asesoria integral sobre diseño de interiores. Para este proyecto se usa Sass como compilador Css, y Bootstrap como framework de Css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/stilescss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "author": "Bruno Cocco",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

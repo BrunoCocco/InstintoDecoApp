@@ -1,0 +1,33 @@
+.header--stile {
+  background-color: $color-azul;
+  color: $color-blanco;
+  font-family: $font-principal;
+
+  .header--container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+.header--botton__toggle {
+  color: white;
+}
+button {
+  color: white;
+}
+.togle--mobile {
+  max-width: 2em;
+  max-height: auto;
+  color: $color-blanco;
+}
+.header--ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

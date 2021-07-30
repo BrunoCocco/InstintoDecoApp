@@ -1,0 +1,14 @@
+.seccion--main__regala {
+  width: auto;
+  height: auto;
+
+  h1 {
+    font-family: $font-principal;
+    color: $color-azulOscuro;
+    text-transform: uppercase;
+  }
+  p {
+    font-family: $font-text;
+    color: $color-negro;
+  }
+}

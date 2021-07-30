@@ -1,0 +1,28 @@
+.main-contenedor{
+    margin-top: 3em;
+    margin-bottom:5em;
+}
+.cards-contenedor{
+    margin:auto;
+}
+.row-margenes{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+.h1-card{
+    font-family: $font-principal;
+    font-size: 25px;
+    color: $color-azulOscuro;
+    text-transform: capitalize;
+}
+.h2-card{
+    font-family: $font-text;
+    font-size: 18px;
+    text-transform:capitalize;
+    color:$color-negro;
+}
+.p-text{
+    font-family: $font-text;
+    font-size: 18px;
+    color:$color-negro;
+}

@@ -1,0 +1,13 @@
+.form--diseño{
+    font-family:$font-principal;
+    text-transform: uppercase;
+    color:$color-azulOscuro;
+}
+.btn-form{
+    background-color: $color-azulOscuro;
+    color: $color-blanco;
+}
+.btn-form:hover{
+    background-color: $color-negro;
+    color: $color-blanco;
+}

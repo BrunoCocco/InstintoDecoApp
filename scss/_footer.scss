@@ -1,0 +1,54 @@
+.footer--stile{
+    background-color: $color-negro;
+    color: $color-blanco;
+    font-family:$font-principal;
+    .text--copyright{
+        font-family:$font-text;
+        font-size: 14px;
+    }
+    .footer--text__h1{
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    ul li a{
+        text-transform: uppercase;
+    }
+    a{
+        text-decoration: none;
+        list-style: none;
+        color:white;
+    }
+    h2{
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    h3{
+        font-size:10px;
+        text-transform: uppercase;
+    }
+    .btn-color{
+        background:$color-azul;
+        color: $color-blanco;
+    }
+    .btn-color:hover{
+        background:$color-blanco;
+        color: $color-negro;
+    }
+}
+.footer--form__position{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.footer--nav__redes{
+    padding: 30px;
+}
+.footer--contenedor__contacto{
+    padding: 20px;
+}
+.icon--diseño{
+    width: 4em;
+    height: 3em;
+    color:$color-blanco;
+}

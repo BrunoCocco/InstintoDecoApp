@@ -1,0 +1,65 @@
+// Seccion numero 1 !!
+.section--uno__fondo {
+    background: url("../image/mesita.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section--uno__stilo{
+    height: 340px;
+    color: $color-azulOscuro;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+    h1{
+        font-size: 28px;
+        font-family:$font-principal;
+        font-style: bold;
+        text-transform: capitalize;
+    }
+    h2{
+        font-size: 24px;
+        font-family: $font-principal;
+    }
+    p{
+        font-family: $font-text;
+        font-size: 18px;
+    }
+.section--text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-color{
+    background:$color-azul;
+    color: $color-blanco;
+}
+.btn-color:hover{
+    background: $color-negro;
+    color:$color-blanco;
+}
+.btn-color_negro{
+    background:$color-negro;
+    color: $color-blanco;
+}
+.btn-color_negro:hover{
+    background:$color-blanco;
+    color: $color-negro;
+}
+// Seccion Numero 2 !!
+.section--dos__fondo{
+    box-sizing: border-box;
+    height: auto;
+    background:$color-azul;
+    color:$color-blanco;
+    padding:40px;
+    h1{
+        font-size: 30px;
+        font-family:$font-text;
+    }
+    h2{
+        font-size: 24px;
+        font-family: $font-text;
+    }
+}
