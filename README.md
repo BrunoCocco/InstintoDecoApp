@@ -1,4 +1,4 @@
-# Instinto Deco 🛋️
+8# Instinto Deco 🛋️
 
 Instinto Deco es un proyecto de diseño web enfocado en la presentación de ambientes y tendencias de decoración interior.
 
@@ -41,15 +41,4 @@ Explorar el potencial de un frontend puro **sin frameworks de JS**, manteniendo 
 🔸 Sistema de componentes reutilizables estilo Design System  
 🔸 Migración progresiva a **React + Tailwind**  
 🔸 Integración con un backend ligero (Express / SQLite) para contenido editable
-
----
-
-## 📷 Preview
-
-_(opcional) agregar GIF o screenshot aquí_
-
----
-
-## 🧩 Estructura general del proyecto (recomendada)
-
 
